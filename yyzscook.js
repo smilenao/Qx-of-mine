@@ -7,7 +7,7 @@
 
 [rewrite_local]
 
-^https://newdrugs.dxy.cn url script-request-header https://raw.githubusercontent.com/Yu9191/Script/main/yyzscook.js
+^https://newdrugs.dxy.cn url script-request-header https://raw.githubusercontent.com/smilenao/Qx-of-mine/main/yyzscook.js?token=GHSAT0AAAAAACJ6YSVN6D75Q46JZ7LBIVKSZKJU7XQ
 
 https://newdrugs.dxy.cn/app/user/pro/stat? url script-response-body https://raw.githubusercontent.com/smilenao/Qx-of-mine/main/yyzs2.js?token=GHSAT0AAAAAACJ6YSVMVU3MFHVZXGUER4P6ZKJU7FA
 
