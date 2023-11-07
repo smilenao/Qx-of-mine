@@ -1,15 +1,11 @@
 /*
-用药助手13.16
-脚本作者：@ios151 
-特别说明：CK且用且珍惜,全功能解锁
-免责声明：仅供学习 请勿传播，请勿在闲鱼售卖
-更新时间: 2023.10.19.23.26
+medicine assistant
 
 [rewrite_local]
 
-^https://newdrugs.dxy.cn url script-request-header https://raw.githubusercontent.com/smilenao/Qx-of-mine/main/yyzscook.js?token=GHSAT0AAAAAACJ6YSVN6D75Q46JZ7LBIVKSZKJU7XQ
+^https://newdrugs.dxy.cn url script-request-header https://raw.githubusercontent.com/smilenao/Qx-of-mine/main/medicineassistant1.js
 
-https://newdrugs.dxy.cn/app/user/pro/stat? url script-response-body https://raw.githubusercontent.com/smilenao/Qx-of-mine/main/yyzs2.js?token=GHSAT0AAAAAACJ6YSVMVU3MFHVZXGUER4P6ZKJU7FA
+https://newdrugs.dxy.cn/app/user/pro/stat? url script-response-body https://raw.githubusercontent.com/smilenao/Qx-of-mine/main/medicineassistant2.js
 
 [mitm]
 hostname = newdrugs.dxy.cn
